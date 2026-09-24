@@ -1,0 +1,19 @@
+# Environment variables and API keys (NEVER commit secrets!)
+.env
+*.env
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Database / temporary files
+*.chroma
+chroma_data/
